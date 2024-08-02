@@ -1,0 +1,35 @@
+.chart {
+	box-sizing: border-box;
+}
+
+.chart .apexcharts-yaxistooltip,
+.chart .apexcharts-xaxistooltip,
+.chart .apexcharts-tooltip {
+	color: var(--chart-fore-color);
+	background-color: var(--chart-bg) !important;
+	border-color: var(--chart-border-color) !important;
+}
+
+.chart .apexcharts-menu {
+	color: var(--chart-fore-color);
+	background-color: var(--chart-bg) !important;
+	border-color: var(--chart-border-color) !important;
+}
+
+.chart .apexcharts-menu-item {
+	text-align: start;
+	border-radius: 3px;
+}
+
+.chart .apexcharts-menu-item:hover {
+	background-color: var(--chart-hover-color) !important;
+}
+
+.chart .apexcharts-toolbar .apexcharts-zoomin-icon:hover svg,
+.chart .apexcharts-toolbar .apexcharts-zoomout-icon:hover svg,
+.chart .apexcharts-toolbar .apexcharts-zoom-icon:hover svg,
+.chart .apexcharts-toolbar .apexcharts-pan-icon:hover svg,
+.chart .apexcharts-toolbar .apexcharts-reset-icon:hover svg,
+.chart .apexcharts-toolbar .apexcharts-menu-icon:hover svg {
+	fill: var(--chart-icon-hover-color);
+}

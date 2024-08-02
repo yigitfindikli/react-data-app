@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--tw-custom-shadow-color: #e5e7eb;
+	--chart-bg: #ffffff;
+	--chart-fore-color: #374151;
+	--chart-border-color: #cfcfcf;
+	--chart-hover-color: #ededed;
+	--chart-icon-hover-color: #2c343f;
+}
+
+:root .dark {
+	--tw-custom-shadow-color: #1a202c;
+	--chart-bg: #1e293b;
+	--chart-fore-color: #cbd5e1;
+	--chart-border-color: #2d3748;
+	--chart-hover-color: #334561;
+	--chart-icon-hover-color: #e1e6ed;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #b6b6b6;
+	border-radius: 8px;
+}
+
+.dark ::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+	background: #2d3848;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+	background: #4c5a6f;
+	border-radius: 8px;
+}
